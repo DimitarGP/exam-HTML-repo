@@ -1,0 +1,142 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900 );
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css );
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+   font-family: 'Lato', sans-serif;
+}
+
+header{
+    background-image: url("images/background.jpg");
+    width: 100%;
+    height: 900px;
+    display: inline-block;
+}
+
+nav{
+    width: 50%;
+    position: relative;
+    bottom: 15px;
+    float: right;
+
+}
+.logo-container{
+    margin-left: 70px;
+    position: relative;
+    top: 10px;
+
+}
+nav ul li{
+    color: #FFFFFF;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.title{
+    margin: 70px auto;
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+    top: 270px;
+}
+
+.title h1{
+    letter-spacing: 1px;
+    font-size: 44px;
+}
+
+.title p{
+    margin: 10px auto;
+}
+
+.offers{
+    background: #f5f5f5;
+    padding: 30px;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.offer-title{
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.offer-title p{
+    margin-top: 10px;
+    opacity: 0.5;
+}
+
+article section{
+    display: flex;
+    justify-content: center;
+}
+
+article section div{
+    width: 20%;
+    background: #FFFFFF;
+    margin: 5px;
+}
+
+article section div > img{
+    width: 100%
+}
+
+.destination{
+    display: flex;
+    justify-content: space-between;
+}
+
+.costumer-opinion{
+    text-align: center;
+    margin: 20px auto;
+}
+
+.costumer-opinion > p{
+    color: #b2b2b2;
+}
+
+.costumers{
+    display: flex;
+    justify-content: center;
+}
+
+.costumer-item{
+    text-align: center;
+    margin: 5px;
+    font-size: 10px;
+    width: 30%;
+}
+
+.costumer-item img{
+    border-radius: 50%;
+}
+.costumer-item h4{
+    margin: 10px auto;
+}
+.costumer-item p{
+    color: #b2b2b2;
+    padding: 20px;
+    box-sizing: border-box;
+    font-style: italic;
+}
+
+.footer-item{
+    display: flex;
+    justify-content: space-around;
+    font-size: 8px;
+    color: #b2b2b2;
+    padding: 30px;
+}
+
+.copy-right{
+    margin-left: 20px;
+   flex-basis: 70%;
+}
